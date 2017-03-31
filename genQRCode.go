@@ -99,7 +99,7 @@ func main() {
 	if err2 != nil {
 		logs.Error("查询小区门禁信息错误:", err2)
 	}
-	logs.Info("查询到门禁信息--->", rows2)
+	logs.Info("查询到门禁信息---->", rows2)
 	pwd,_ := os.Getwd()
 	separator := string(filepath.Separator)
 	dir = pwd + separator + "门禁二维码" + separator
